@@ -8,7 +8,7 @@
 <%@ page import="java.util.Date"%> 
 <%@ page import="com.liferay.portal.kernel.util.CalendarFactoryUtil" %>
 <%@ page import="com.liferay.portal.kernel.util.CalendarUtil" %>
-<%@ page import="com.test.Job" %>
+<%@ page import="it.infn.ct.scigaia.Job" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="com.liferay.portal.model.Contact" %>
 
@@ -85,7 +85,7 @@ if (joblist == null || joblist.isEmpty()) {
 	/>
 
 	<liferay-ui:search-container-row
-		className="com.test.Job"
+		className="it.infn.ct.scigaia.Job"
 		modelVar="job"
 	>
 	

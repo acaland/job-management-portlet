@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 <%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 <%@ taglib uri="http://alloy.liferay.com/tld/aui" prefix="aui" %>
-<%@ page import="com.test.Job"%>
+<%@ page import="it.infn.ct.scigaia.Job"%>
 <%@ page import="java.util.Calendar"%> 
 
 <portlet:defineObjects />

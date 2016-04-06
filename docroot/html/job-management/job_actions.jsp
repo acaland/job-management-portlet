@@ -1,6 +1,6 @@
 <%@ page import="com.liferay.portal.kernel.util.WebKeys"%>
 <%@ page import="com.liferay.portal.kernel.dao.search.ResultRow"%>
-<%@ page import="com.test.Job"%>
+<%@ page import="it.infn.ct.scigaia.Job"%>
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 <%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 <%@ taglib uri="http://alloy.liferay.com/tld/aui" prefix="aui" %>
