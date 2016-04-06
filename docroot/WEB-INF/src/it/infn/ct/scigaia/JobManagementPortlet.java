@@ -20,7 +20,7 @@ import com.liferay.util.bridges.mvc.MVCPortlet;
  * Portlet implementation class JobManagementPortlet 
  */
 public class JobManagementPortlet extends MVCPortlet {
-	Log log = LogFactoryUtil.getLog(GuestBookPortlet.class);
+	Log log = LogFactoryUtil.getLog(JobManagementPortlet.class);
 	int id = 0;
 	
 	
