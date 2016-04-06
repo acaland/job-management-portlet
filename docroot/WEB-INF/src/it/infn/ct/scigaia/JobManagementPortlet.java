@@ -118,7 +118,7 @@ public class JobManagementPortlet extends MVCPortlet {
 			}
 		}		
 		
-		actionResponse.setRenderParameter("mvcPath", "/html/guestbook/edit.jsp");
+		actionResponse.setRenderParameter("mvcPath", "/html/job-management/edit.jsp");
 		//SessionMessages.clear(actionRequest);
 
 	}
@@ -164,6 +164,6 @@ public class JobManagementPortlet extends MVCPortlet {
 				break;
 			}
 		}
-		actionResponse.setRenderParameter("mvcPath", "/html/guestbook/view.jsp");
+		actionResponse.setRenderParameter("mvcPath", "/html/job-management/view.jsp");
 	}
 }

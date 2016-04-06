@@ -18,7 +18,7 @@
 <h3>Edit Job <%=  jobToEdit.getTitle() %></h3>
 
 <portlet:renderURL var="listJobURL">
-	<portlet:param name="mvcPath" value="/html/guestbook/view.jsp"/>
+	<portlet:param name="mvcPath" value="/html/job-management/view.jsp"/>
 </portlet:renderURL>
 
 

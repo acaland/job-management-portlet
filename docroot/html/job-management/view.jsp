@@ -67,7 +67,7 @@
 <br/><br/>
 
 <% 
-//PortletSession ciccio = renderRequest.getPortletSession();
+
 
 ArrayList<Job> joblist = (ArrayList<Job>) portletSession.getAttribute("job-list"); 
 
@@ -98,7 +98,7 @@ if (joblist == null || joblist.isEmpty()) {
 		<liferay-ui:search-container-column-text property="executable" />
 
 		<liferay-ui:search-container-column-text  name="Scheduled at" value="<%= job.getScheduledAtAsString() %>"/>
-		<liferay-ui:search-container-column-jsp name="Actions" align="left" path="/html/guestbook/job_actions.jsp">
+		<liferay-ui:search-container-column-jsp name="Actions" align="left" path="/html/job-management/job_actions.jsp">
 			
 		</liferay-ui:search-container-column-jsp>
 

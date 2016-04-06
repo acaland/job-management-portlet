@@ -5,7 +5,7 @@
 	<portlet>
 		<portlet-name>job-management</portlet-name>
 		<display-name>Job Management</display-name>
-		<portlet-class>it.ct.infn.scigaia.JobManagementPortlet</portlet-class>
+		<portlet-class>it.infn.ct.scigaia.JobManagementPortlet</portlet-class>
 		<init-param>
 			<name>view-template</name>
 			<value>/html/job-management/view.jsp</value>
